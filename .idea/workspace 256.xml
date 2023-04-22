@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2a121bc-1899-41e0-a293-c47d5459c0ee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/.index 3.html.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.0b60bc96cb2a776642ab69f3e8589690.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/.2.a111d5eb.chunk.js.map.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.a111d5eb.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.d0e3fdd2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.d0e3fdd2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firestore.rules" beforeDir="false" afterPath="$PROJECT_DIR$/firestore.rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/CreateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/CreateProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Summary.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6047678-d7c3-469c-ba4b-28cd63a6e31f" name="Changes" comment="" />
+      <created>1682152242810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682152242810</updated>
+      <workItem from="1682152247354" duration="7352000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
