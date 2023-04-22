@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ProjectTrekApp/precache-manifest.0b60bc96cb2a776642ab69f3e8589690.js"
+  "/ProjectTrekApp/precache-manifest.f85484ce745407ffd9fe410317023f25.js"
 );
 
 workbox.clientsClaim();

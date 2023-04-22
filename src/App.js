@@ -32,7 +32,6 @@ function App() {
                     {user && <ActiveUsers/>}
                     <Container fluid className="flex-grow-1 py-0 px-0">
                         <Header/>
-
                         <Routes>
                             <Route path="/" element={
                                 user ? <Navigate to="/dashboard"/> : <Navigate to="/login"/>
@@ -55,12 +54,8 @@ function App() {
                             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                             <Route path="/terms-conditions" element={<TermsConditions />} />
                         </Routes>
-
-                        <Footer/>
-
-
                     </Container>
-
+                    <Footer/>
                 </HashRouter>
 
             )}

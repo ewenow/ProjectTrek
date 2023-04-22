@@ -46,7 +46,7 @@ export default function Signup() {
     }
 
     return (
-        <form onSubmit={handleSubmit} className="p-3 bg-white border rounded shadow-sm" style={{ maxWidth: "30%", margin: "60px auto"}}>
+        <form onSubmit={handleSubmit} className="p-3 bg-white border rounded shadow-sm w-25" style={{ width: "30%", margin: "60px auto"}}>
             <h2 className="text-center">Sign up</h2>
             <div className="form-group">
                 <label htmlFor="email" className="mt-3 w-100">
@@ -100,7 +100,7 @@ export default function Signup() {
                 {avatarError && <div className="alert alert-danger mt-2">{avatarError}</div>}
                 </label>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center m-2">
                 {!isPending && <button className="btn btn-primary mt-4 px-5 rounded-pill shadow-sm">Sign up</button>}
                 {isPending && <button className="btn btn-primary mt-4 px-5 rounded-pill shadow-sm" disabled>Loading</button>}
             {error && <div className="alert alert-danger mt-2">{error}</div>}

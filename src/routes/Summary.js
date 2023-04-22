@@ -15,7 +15,7 @@ export default function ProjectSummary({ project }) {
     }
 
     return (
-        <div className="bg-light shadow-lg p-4 m-4 rounded d-flex justify-content-center align-items-center flex-wrap">
+        <div className="bg-light shadow-lg p-4 m-4 rounded d-flex justify-content-start align-items-start flex-column">
             <div className="p-2">
                 <h2 style={{color: '#5f4193'}}>{project.name}</h2>
                 <p>Deadline: {project.dueDate.toDate().toDateString()}</p>
@@ -23,7 +23,7 @@ export default function ProjectSummary({ project }) {
                     {project.details}
                 </p>
 
-                <div className="d-flex justify-content-start align-items-center flex-wrap">
+                <div className="d-flex justify-content-start align-self-center flex-wrap">
                     <p><strong>Team members:</strong></p>
                     {project.assignedUsersList.map(user => (
                         <div key={user.id} className="m-2" >
@@ -33,7 +33,7 @@ export default function ProjectSummary({ project }) {
                 </div>
             </div>
             {user.uid === project.createdBy.id && (
-                <button className="btn border-dark mt-4 px-4 rounded-pill shadow-sm" onClick={handleClick}>Completed!</button>
+                <button className="btn border-dark mt-4 px-4 rounded-pill shadow-sm d-flex justify-content-center align-self-end" onClick={handleClick}>Completed!</button>
             )}
         </div>
     )

@@ -91,7 +91,7 @@ export default function Create() {
             <form onSubmit={handleSubmit} className="mt-4 p-4 bg-white border rounded shadow-sm overflow-auto" style={{ maxWidth: "90%", margin: "60px auto"}}>
                 <h2 className="text-center mt-6">Create Your project idea!</h2>
                     <div className="form-group">
-                        <label className="mt-3 w-75">
+                        <label className="mt-3 w-50">
                             <span className="mt-3">Project name:</span>
                             <input
                                 required
@@ -103,7 +103,7 @@ export default function Create() {
                         </label>
                    </div>
                    <div className="form-group">
-                        <label className="mt-3 w-100">
+                        <label className="mt-3 w-75">
                             <span>Project details:</span>
                             <textarea
                                 required
@@ -148,7 +148,7 @@ export default function Create() {
                 </div>
                 <div className="d-flex justify-content-center">
                      <button className="btn btn-success mt-4 px-3 rounded-pill shadow-sm">Create!</button>
-                    {formError && <p className="error alert alert-danger">{formError}</p>}
+                    {formError && <p className="alert alert-danger m-2">{formError}</p>}
                 </div>
             </form>
     )

@@ -31,7 +31,7 @@ export default function ProjectComments({ project }) {
     }
 
     return (
-        <div className="bg-light shadow-lg p-4 m-4 rounded d-flex justify-content-start align-items-center flex-wrap">
+        <div className="bg-light shadow-lg p-4 m-4 rounded">
                 <h4>Comments:</h4>
                 <ul className="m-0 p-0">
                     {project.comments.length > 0 && project.comments.map(comment => (
@@ -46,7 +46,7 @@ export default function ProjectComments({ project }) {
                     ))}
                 </ul>
 
-            <form onSubmit={handleSubmit} className="shadow-lg p-4 my-4 rounded d-flex justify-content-start align-items-end flex-column" style={{width: "100%"}}>
+            <form onSubmit={handleSubmit} className="shadow-lg p-4 my-4 rounded d-flex justify-content-start align-items-center flex-column" style={{width: "100%"}}>
                 <label className="flex-grow-1 w-100">
                     <span>Add comment:</span>
                     <textarea
@@ -55,7 +55,7 @@ export default function ProjectComments({ project }) {
                         className="rounded shadow w-100 mt-2"
                     ></textarea>
                 </label>
-                <button className="btn border-dark my-3 mx-2 px-4 rounded-pill shadow-sm">Send!</button>
+                <button className="btn border-dark my-3 mx-2 px-4 rounded-pill shadow-sm d-flex justify-content-end align-self-end">Send!</button>
             </form>
         </div>
     )

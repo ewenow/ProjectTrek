@@ -47,7 +47,7 @@ export default function Dashboard() {
 
     return (
         <div className="text-center mt-8 p-2 overflow-auto" style={{height: "100vh"}}>
-            {error && <p className="error">{error}</p>}
+            {error && <div className="alert alert-danger mt-2">{error}</div>}
             {documents && <ProjectFilter changeFilter={changeFilter} />}
             {projects && <ProjectList projects={projects} />}
         </div>
