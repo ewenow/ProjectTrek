@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -13,8 +14,8 @@ function Footer() {
                     </Col>
                     <Col lg={6} className="text-center text-lg-end mt-2">
                         <p>
-                            <a href="#" className="text-decoration-none mx-3">Privacy Policy</a>
-                            <a href="#" className="text-decoration-none">Terms &amp; Conditions</a>
+                            <Link to="/privacy-policy" className="text-decoration-none mx-3">Privacy Policy</Link>
+                            <Link to="/terms-conditions" className="text-decoration-none">Terms &amp; Conditions</Link>
                         </p>
                     </Col>
                 </Row>

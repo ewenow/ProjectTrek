@@ -46,7 +46,7 @@ export default function Signup() {
     }
 
     return (
-        <form onSubmit={handleSubmit} className="p-4 bg-white border rounded shadow-sm" style={{ maxWidth: "360px", margin: "60px auto"}}>
+        <form onSubmit={handleSubmit} className="p-3 bg-white border rounded shadow-sm" style={{ maxWidth: "30%", margin: "60px auto"}}>
             <h2 className="text-center">Sign up</h2>
             <div className="form-group">
                 <label htmlFor="email" className="mt-3 w-100">
@@ -54,7 +54,7 @@ export default function Signup() {
                     <input
                         required
                         type="email"
-                        className="form-control"
+                        className="form-control mt-1"
                         id="email"
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
@@ -67,7 +67,7 @@ export default function Signup() {
                     <input
                         required
                         type="password"
-                        className="form-control"
+                        className="form-control mt-1"
                         id="password"
                         onChange={(e) => setPassword(e.target.value)}
                         value={password}
@@ -80,7 +80,7 @@ export default function Signup() {
                     <input
                         required
                         type="text"
-                        className="form-control"
+                        className="form-control mt-1"
                         id="name"
                         onChange={(e) => setDisplayName(e.target.value)}
                         value={displayName}
@@ -88,7 +88,7 @@ export default function Signup() {
                 </label>
             </div>
             <div className="form-group">
-                <label htmlFor="avatar" className="mt-3">
+                <label htmlFor="avatar" className="mt-3 w-100">
                 <span>Avatar:</span>
                 <input
                     required

@@ -13,7 +13,7 @@ export default function Login() {
     }
 
     return (
-        <form onSubmit={handleSubmit} className="p-4 bg-white border rounded shadow-sm" style={{ maxWidth: "360px", margin: "60px auto"}}>
+        <form onSubmit={handleSubmit} className="p-4 bg-white border rounded shadow-sm" style={{ maxWidth: "30%", margin: "60px auto"}}>
             <h2 className="text-center">Log in</h2>
             <div className="form-group">
                 <label htmlFor="email" className="mt-3 w-100">
@@ -21,7 +21,7 @@ export default function Login() {
                     <input
                         required
                         type="email"
-                        className="form-control"
+                        className="form-control m-1"
                         id="email"
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
@@ -34,7 +34,7 @@ export default function Login() {
                     <input
                         required
                         type="password"
-                        className="form-control"
+                        className="form-control m-1"
                         id="password"
                         onChange={(e) => setPassword(e.target.value)}
                         value={password}
@@ -42,8 +42,8 @@ export default function Login() {
                 </label>
             </div>
             <div className="d-flex justify-content-center">
-                {!isPending && <button className="btn btn-primary mt-4 px-5 rounded-pill shadow-sm">Log in</button>}
-                {isPending && <button className="btn btn-primary mt-4 px-5 rounded-pill shadow-sm" disabled>Loading</button>}
+                {!isPending && <button className="btn btn-primary mt-4 px-4 rounded-pill shadow-sm" >Log in</button>}
+                {isPending && <button className="btn btn-primary mt-4 px-4 rounded-pill shadow-sm" disabled>Loading</button>}
                 {error && <div className="alert alert-danger mt-2">{error}</div>}
             </div>
         </form>
